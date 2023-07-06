@@ -11,6 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  
 }
 
 
@@ -22,17 +23,22 @@ h1 {
   
   padding: 20px;
   text-align: center;
+  max-width: 500px;
+  
 }
 
 .about-content img {
   width: 200px;
   border-radius: 50%;
   margin-bottom: 20px;
+  
+  
 }
 
 .about-content{
-  width: 500px;
+  max-width: 500px;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .about-content img {
@@ -231,7 +237,7 @@ margin-bottom: 30px;
 .skill h3 {
   margin-top: 10px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 668px) {
   .column {
     flex-direction: column;
     
@@ -258,6 +264,11 @@ h1 {
   padding: 20px;
   text-align: center;
 
+}
+
+.about-content{
+  max-width: 300px;
+  justify-content: center;
 }
 
 .about-content img {
