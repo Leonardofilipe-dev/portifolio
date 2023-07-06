@@ -34,13 +34,13 @@ header {
   
   .descricao-texto h2 {
     font-size: 24px;
-    color: #191970;
+    color: #000000;
     margin-bottom: 10px;
   }
   
   .descricao-texto p {
     font-size: 16px;
-    color: #191970;
+    color: #000000;
     line-height: 1.5;
     width: 500px;
     justify-content: right;
@@ -64,7 +64,7 @@ header {
     display: inline-block;
     margin-right: 10px;
     padding: 8px 16px;
-    background-color: #191970;
+    background-color: #363636;
     color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
@@ -74,7 +74,7 @@ header {
     margin-left: 20px;
   }
   .botao:hover {
-    background-color: #DAA520;
+    background-color: #000000;
   }
   
 
@@ -89,12 +89,12 @@ header {
   }
   
   #descricao h2 {
-    color: #191970;
+    color: #000000;;
     margin-bottom: 10px;
   }
   
   #descricao p {
-    color: #191970;
+    color: #000000;
     font-size: 16px;
     line-height: 1.5;
   }
@@ -135,14 +135,14 @@ header {
   
   .projeto-info h2 {
     margin-top: 0;
-    color: #191970;
+    color: #000000;
   }
   
   .projeto-info ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    color: #191970;
+    color: #000000;
   }
   
   .projeto-info li {
@@ -153,7 +153,7 @@ header {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #191970;
+    background-color: #363636;
     color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
@@ -161,7 +161,8 @@ header {
   }
   
   .projeto-info a:hover {
-    background-color: #DAA520;
+    background-color: #000000;
+    transition: 1s;
   }
 
   @media (max-width: 768px) {
